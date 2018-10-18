@@ -1,0 +1,8 @@
+Create table Patient11 
+(
+Patientid number,
+PatientName varchar2(20),
+consultationDate date
+);
+create sequence p_seq start with 11 increment by 1;
+SELECT * FROM Patient11;

@@ -1,0 +1,7 @@
+create table patient
+(
+	id number(5),
+	name varchar2(20),
+	date2 DATE
+);
+create sequence patient1_seq start with 1001 increment by 1; 
